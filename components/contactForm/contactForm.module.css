@@ -1,0 +1,43 @@
+.contactFormContainer {
+    background-color: #353b48;
+    max-width: 540px;
+    margin: 20px auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+
+.labelContactForm{
+    padding: 2px 5px;
+}
+
+.emailContactForm {
+    margin-top: 5px;
+    height: 1.8rem;
+    border: 0;
+    border-radius: 5px;
+    background-color: #7f8fa6;
+}
+
+.messageContactForm {
+    margin-top: 5px;
+    height: 30vh;
+    border: 0;
+    border-radius: 5px;
+    background-color: #7f8fa6;
+    resize: none;
+}
+
+.submitButton {
+    margin-top: 15px;
+    background-color: #e1b12c;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem;
+}

@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.layout}>
       <Head>
-        <title>Portfolio next.js</title>
+        <title>PMolina Portfolio</title>
       </Head>
       <header>
         <Navbar />

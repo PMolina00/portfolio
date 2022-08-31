@@ -1,0 +1,60 @@
+.cardContainer {
+    height: 45vh;
+    width: 40vw;
+
+    max-width: 520px;
+    max-height: 500px;
+
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 1.5rem;
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buttonContainer a {
+    color: #192a56;
+    background: linear-gradient(180deg, rgba(68, 189, 50, 1) 0%, rgba(76, 209, 55, 1) 100%, rgba(127, 143, 166, 1) 100%);
+    border-radius: 1.5rem;
+    z-index: 5;
+    padding: 0.4rem;
+    margin: 10px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#disable {
+    pointer-events: none;
+    cursor: none;
+    text-decoration: none;
+    color: #718093;
+}
+
+#backend {
+    background: linear-gradient(90deg, rgba(53, 59, 72, 1) 0%, rgba(113, 128, 147, 1) 60%, rgba(127, 143, 166, 1) 100%);
+}
+
+#frontend {
+    background: linear-gradient(90deg, rgba(25, 42, 86, 1) 0%, rgba(0, 151, 230, 1) 60%, rgba(0, 168, 255, 1) 100%);
+}
+
+@media only screen and (max-width: 740px) {
+    .cardContainer {
+        height: fit-content;
+        width: 80vw;
+
+        max-width: 520px;
+        max-height: fit-content;
+    }
+}

@@ -22,11 +22,6 @@ const Navbar = () => {
                             About
                         </Link>
                     </li>
-                    <li className={styles.navLi}>
-                        <Link href='/contact'>
-                            Contact
-                        </Link>
-                    </li>
                 </ul>
             </div>
         </div>
